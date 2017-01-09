@@ -1,6 +1,6 @@
 h1 a {
     color: #FCA205;
-    font-family: "Sans-serif", Verdana, serif;
+    font-family: Century Gothic, sans-serif;
 }
 
 body {
@@ -20,12 +20,14 @@ body {
     text-decoration: none;
 }
 
-.content {
-    margin-left: 40px;
-}
+
 
 h1, h2, h3, h4 {
-    font-family: "Sans-serif", Verdana, serif;
+    font-family: Century Gothic, sans-serif;
+}
+
+h2 {
+	margin-left: 30px;
 }
 
 .date {
@@ -54,6 +56,6 @@ h1, h2, h3, h4 {
 }
 
 .post h1 a, .post h1 a:visited {
-    color: #000000;
+    color: #483D8B;
  
 }
