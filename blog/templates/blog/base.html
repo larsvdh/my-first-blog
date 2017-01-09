@@ -112,51 +112,47 @@
             {% if user.is_authenticated %}
 				<a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
 			{% endif %}
-            <h1><a href="/">Blog</a></h1>
+            <h1><a href="/"><strong>Blog</strong></a></h1>
+			<h1>Created for Webtech2016<h1>
 
 			<div id="status">
 			</div>
 			<div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="false"></div>
         </div>
 		
-        <div class="content container">
-            <div class="row">
+<h2>The Blog about nothing really</h2>
+		    <div class="container">  
+
+				<div style='float:left; width:60%'>
 				
-                <div class="col-md-2 col-sm-6">
-				    
-            </div>
-        </div>
-		</div>
-		        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>The Blog about nothing really</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                            </span>
+                        
+
                                 <h4>
-                                    <strong>Blog posts</strong>
+                                    <strong>Blog posts: </strong>
                                 </h4>
                                 {% block content %}
 								<div  class="fb-like"  data-share="true"  data-width="450"  data-show-faces="true">
 								{% endblock %}
 								<div  class="fb-like"  data-share="true"  data-width="450"  data-show-faces="true">
 								</div>
+
                             </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
+							</div>
+							</div>
+							<div>
+							<p> </p>
+							<p> </p>
+							</div>
+							
+							
+                        
+						
+						                        
+							<div class="container">
+
+								<div style='float:left; width:40%;'>
                                 <h4>
-                                    <strong>About this blog</strong>
+                                    <strong>About this blog: </strong>
                                 </h4>
                                 <p>The blog is created for Webtech2016 indivitual assignment 2. The subject is a blog. It is kept close to the tutorial</p>
 								<p><strong>Features: </strong></p>
@@ -165,11 +161,13 @@
 								<p>- HTML CSS combined </p>
 								<p>- API implemented (facebook)</p>
                             </div>
-                        </div>
+							</div>
+                        
                        
-                   </div>
-                </div>
-            </div>
-        </div>
+                   
+                
+            
+        
+		
     </body>
 </html>
